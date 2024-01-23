@@ -1,0 +1,83 @@
+1
+What two types of storage accounts support Azure Data Lake Gen2?
+Standard general-purpose v2, premium block blobs (must support blobs)
+
+2
+What do you need to do to ensure blobs can be cycled based on access time.
+Enable access tracking
+
+3
+What port does SMB use?
+445
+
+4
+What powershell command can be used to upload a virtual hard disk to Azure?
+Add-AzVhd
+
+5
+What storage type can be used to provide Kerberos identity-based access to a storage account
+File shares
+
+6
+What do you need to enable to get POSIX ACL's on a storage account?
+Hierarchical namespace
+
+7
+What do you use to reference a group of virtual machines in an NSG?
+Application Security group
+
+8
+What can you use to reference an azure service in an NSG?
+A Service Tag
+
+9
+What is the main limitations of a Basic Sku Azure load balancer?
+Can only be deployed in one AZ.
+
+10
+What command lists all the ports currently listing on?
+netstat -an
+
+11
+What DNS record allows you to delegate a subdomain to another domain server?
+NS
+
+12
+What is the relationship between backup frequency and number of snapshots that need to be stored?
+Must use 5 for weekly, for daily its 1-5
+
+13
+What is the maximum number of SMS messages that can be sent by an action group?
+One every 5 minutes.
+
+14
+How can you connect a VM to two different subnets at once?
+Create two network interfaces, one for each subnet and attach both to the machine.
+
+15
+What AAS setting do you need to configure to use a Docker container?
+Publish / Docker container
+
+16
+What command is used to start a new job in a container app?
+az containerapp job create
+
+17
+What portion of the azure portal allows you to configure SSPR?
+Authentication
+
+18
+What attribute must be configured for a user before it can be assigned an MS 365 license?
+Usage location
+
+19
+What is the minimal Entra tier that supports SSPR with password writeback?
+Premium 1
+
+20
+What three resource types can you apply delete locks to?
+resource groups, subscriptions, virtual machines
+
+21
+What section of an azure policy can include custom remediation information?
+metadata
