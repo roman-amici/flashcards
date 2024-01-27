@@ -81,3 +81,69 @@ resource groups, subscriptions, virtual machines
 21
 What section of an azure policy can include custom remediation information?
 metadata
+
+
+50
+What are restrictions for moving Web Apps across resource groups?
+The *destination* rg cannot have web apps, app service plance or ASE's.
+
+51
+What can a user admin do?
+Manage membership for any group (inld. adding devices).
+
+52
+What are restrictions on VNic creation?
+Must be the same region as the attached vnet.
+
+53
+What are restrictions on a VNic after creation?
+Cannot be moved to a different VNet.
+
+54
+What are restrictions on a VNic for VM assignment?
+Must be in the same regions as the VM.
+
+55
+What are restrictions on an Azure Backup value for the data it can backup?
+Must be in the same region as the data it is backing up.
+
+56
+Who can administer a device that is joined to Entra?
+The user who joined the device and any Entra Global Admins.
+
+57
+What do init containers do in ACI?
+Run first and setup resources for the container group.
+
+58
+What are some roles that require extra SSPR security?
+Any admin role including Helpdesk, Billing, Partner Support, User Adming?
+
+59
+What VM tiers do not support ADE?
+Basic and below.
+
+60
+What must be done to trigger events from a Windows event logs?
+Send the logs to Log Analytics.
+
+61
+What networking/computing resource cannot be moved across region?
+Basic load balancer and associated scale sets.
+
+62
+What idividualized policies can be setup for distinct version of the same blob?
+Different access polices and lifecycles.
+
+63
+What are the performance implication of blob versioning?
+Increases latency for blob operations with many versions.
+
+64
+What is the minimum App Service Plan that supports web app backup?
+Basic
+
+65
+What is required to use Network Watcher's flow logs?
+Enable network insigts, associate the insigts with a storage account.
+
