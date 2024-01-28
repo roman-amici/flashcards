@@ -19,7 +19,7 @@ What storage type can be used to provide Kerberos identity-based access to a sto
 File shares
 
 6
-What do you need to enable to get POSIX ACL's on a storage account?
+What do you need to enable to get POSIX ACL's over blob storage?
 Hierarchical namespace
 
 7
@@ -35,7 +35,7 @@ What is the main limitations of a Basic Sku Azure load balancer?
 Can only be deployed in one AZ.
 
 10
-What command lists all the ports currently listing on?
+What command lists all the ports currently listening on?
 netstat -an
 
 11
@@ -63,7 +63,7 @@ What command is used to start a new job in a container app?
 az containerapp job create
 
 17
-What portion of the azure portal allows you to configure SSPR?
+What tab in the azure portal allows you to configure SSPR?
 Authentication
 
 18
@@ -85,11 +85,11 @@ metadata
 
 50
 What are restrictions for moving Web Apps across resource groups?
-The *destination* rg cannot have web apps, app service plance or ASE's.
+The *destination* rg cannot have web apps, app service plan or web apps.
 
 51
 What can a user admin do?
-Manage membership for any group (inld. adding devices).
+Manage membership for any group (incld. adding devices).
 
 52
 What are restrictions on VNic creation?
@@ -108,7 +108,7 @@ What are restrictions on an Azure Backup value for the data it can backup?
 Must be in the same region as the data it is backing up.
 
 56
-Who can administer a device that is joined to Entra?
+Who can administer a device that is joined to an Entra domain?
 The user who joined the device and any Entra Global Admins.
 
 57
@@ -117,10 +117,10 @@ Run first and setup resources for the container group.
 
 58
 What are some roles that require extra SSPR security?
-Any admin role including Helpdesk, Billing, Partner Support, User Adming?
+Any admin role including Helpdesk, Billing, Partner Support, User Admin
 
 59
-What VM tiers do not support ADE?
+What VM tiers do not support Azure Disk Encryption?
 Basic and below.
 
 60
@@ -132,8 +132,8 @@ What networking/computing resource cannot be moved across region?
 Basic load balancer and associated scale sets.
 
 62
-What idividualized policies can be setup for distinct version of the same blob?
-Different access polices and lifecycles.
+What kinds of policies can be applied to individual versions of a blob?
+Access and lifecycle policies.
 
 63
 What are the performance implication of blob versioning?
@@ -145,5 +145,5 @@ Basic
 
 65
 What is required to use Network Watcher's flow logs?
-Enable network insigts, associate the insigts with a storage account.
+Enable network insights, associate the workspace with a storage account.
 
