@@ -147,3 +147,66 @@ Basic
 What is required to use Network Watcher's flow logs?
 Enable network insights, associate the workspace with a storage account.
 
+66
+What records can be used to verify ownership of a custom domain name for Entra Id?
+MX or TXT
+
+67
+What do you need to do for a P2S connection that uses static routing after routing changes have been made?
+Re-download the VPN client configuration file for your vpn.
+
+68
+What are requirements on the subnet used for a VNG?
+Must be named GatewaySubnet and be at least a /28 in size.
+
+69
+What is the relationship between a VNG and VPN Gateway?
+A VPN Gateway is a special type of VNG for connection to on-prem.
+
+70
+What config objects represents your on-prem location in Azure?
+Local network gateway.
+
+71
+What are the only methods of importing a DNS zone file?
+Azure CLI and Azure Portal (not PS!)
+
+72
+What is one reason that a VPN peering might be in a disconnected state?
+One of the two links was deleted.
+
+73
+What is the topology of a sync group?
+A single cloud endpoint with multiple server endpoints.
+
+74
+When can you take a backup of an Azure VM disk?
+Whenever, including if the machine is stopped/defalcated.
+
+75
+How does an availability set spread out your machines?
+Across domains *within* a single data center (not across AZ's).
+
+76
+What is a configuration at the app service plan level which might restrict what apps you can deploy?
+Operating System
+
+77
+What must you do if you want more than 1 update domain?
+Configure more than 1 fault domain too.
+
+78
+What network monitoring service can track network performance between on-prem and could VM's?
+Connection Monitor in Network Watcher.
+
+79
+What must you do to restore your VM to the primary region after a failover?
+Reprotect the VM in the failover region.
+
+80
+When do load-balancer to ip SKU restrictions apply for virtual machines?
+When routing to a machine with an attached public IP (not a private IP)
+
+81
+What authentication methods are allowed for AZ Copy?
+Entra Login, and SAS (not access keys)
