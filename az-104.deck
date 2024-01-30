@@ -82,6 +82,41 @@ resource groups, subscriptions, virtual machines
 What section of an azure policy can include custom remediation information?
 metadata
 
+22
+What are the limitations of a basic load balancer with respect to backend pools?
+Targets must be in a single AS or scale set
+
+23
+How can you accomplish scaling up an ACI deployment?
+Stop / delete the old ACI and create a new one with the new scale settings
+
+24
+When can version-level immunity be configured for a blob storage?
+At storage account creation.
+
+25
+What does an inbound NAT rule on an azure load balancer do?
+Forwards traffic to the load balancer to a specific target virtual machine.
+
+26
+Which replication tier has 16 9's of durability?
+GRS
+
+27
+What is the durability leve of LRS?
+11 9's
+
+28
+What methods can be used to create administrative units?
+Azure Portal, Microsoft Graph, Microsoft 365 Admin center
+
+29
+What method cannot be used to create administrative units?
+Azure CLI
+
+30
+What is the difference between a load balancing rule and an inbound NAT rule.
+LB rule distributes to all VM's in the ppol. NAT distributes to a particular VM in the pool.
 
 50
 What are restrictions for moving Web Apps across resource groups?
@@ -210,3 +245,4 @@ When routing to a machine with an attached public IP (not a private IP)
 81
 What authentication methods are allowed for AZ Copy?
 Entra Login, and SAS (not access keys)
+
