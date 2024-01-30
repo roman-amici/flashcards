@@ -91,7 +91,7 @@ How can you accomplish scaling up an ACI deployment?
 Stop / delete the old ACI and create a new one with the new scale settings
 
 24
-When can version-level immunity be configured for a blob storage?
+When can version-level immutability be configured for a blob storage?
 At storage account creation.
 
 25
@@ -139,7 +139,7 @@ What are restrictions on a VNic for VM assignment?
 Must be in the same regions as the VM.
 
 55
-What are restrictions on an Azure Backup value for the data it can backup?
+What are restrictions on an Azure Backup vault when backing up an azure managed service?
 Must be in the same region as the data it is backing up.
 
 56
@@ -159,7 +159,7 @@ What VM tiers do not support Azure Disk Encryption?
 Basic and below.
 
 60
-What must be done to trigger events from a Windows event logs?
+What must be done to track windows event logs (and trigger monitoring events based on them).
 Send the logs to Log Analytics.
 
 61
@@ -199,7 +199,7 @@ What is the relationship between a VNG and VPN Gateway?
 A VPN Gateway is a special type of VNG for connection to on-prem.
 
 70
-What config objects represents your on-prem location in Azure?
+What config objects represents your on-prem network in Azure?
 Local network gateway.
 
 71
@@ -227,11 +227,11 @@ What is a configuration at the app service plan level which might restrict what 
 Operating System
 
 77
-What must you do if you want more than 1 update domain?
-Configure more than 1 fault domain too.
+What must you do if you want more than one update domain in an availability set?
+Configure more than one fault domain too.
 
 78
-What network monitoring service can track network performance between on-prem and could VM's?
+What network monitoring service can track network performance between on-prem and cloud VM's?
 Connection Monitor in Network Watcher.
 
 79
