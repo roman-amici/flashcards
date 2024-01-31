@@ -246,3 +246,54 @@ When routing to a machine with an attached public IP (not a private IP)
 What authentication methods are allowed for AZ Copy?
 Entra Login, and SAS (not access keys)
 
+82
+What is the difference between a generalized and specialized azure VM image?
+A specialized image has not been generalized, thus it retains user accounts and computer name among other things.
+
+83
+What is the SLA on the standard load balancer? Basic load balancer?
+99.99%, None
+
+84
+What is a data collector set used for?
+Collect performance counters from Windows Performance Monitor.
+
+85
+What is Packet Capture for?
+Network watcher capability that captures all packets without burdening a running VM. Can also be used to detect intrusions.
+
+86
+What must be done before a network interface can be added to a VM?
+The machine must be in the stopped state.
+
+87
+What can IP Flow Verify be used for?
+To diagnose if a packet can reach a specific machine based on a source.
+
+88
+What powershell command can be used to export the template used for an existing deployment?
+Save-AzResourceGroupDeploymentTemplate
+
+89
+What does the "net use" command do?
+Used to connect to file shares over SMB.
+
+90
+What authentication methods are allowed when connecting to Azure file shares via SMB?
+Storage account keys and Kerberos (not SAS).
+
+91
+How many disjoint address spaces can a VNet have?
+Multiple.
+
+92
+What is required to reach an SLA of at least 95.95 availability for a set of virtual machines?
+Two virtual machines in separate fault domains, and standard Azure managed disks.
+
+93
+What is azure traffic manager for?
+Load balancing cross region using DNS.
+
+94
+What permissions are required to read all roles and role assignment?
+Microsoft.Authorization/*/read
