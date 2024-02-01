@@ -280,14 +280,14 @@ Used to connect to file shares over SMB.
 
 90
 What authentication methods are allowed when connecting to Azure file shares via SMB?
-Storage account keys and Kerberos (not SAS).
+AADS, Entra Domain Services, Kerebos (not SAS).
 
 91
 How many disjoint address spaces can a VNet have?
 Multiple.
 
 92
-What is required to reach an SLA of at least 95.95 availability for a set of virtual machines?
+What is required to reach an SLA of at least 99.95% availability for a set of virtual machines?
 Two virtual machines in separate fault domains, and standard Azure managed disks.
 
 93
