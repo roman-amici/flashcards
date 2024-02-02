@@ -312,7 +312,7 @@ Azure SQL Databases and Blob containers.
 
 98
 What storage services can be backed up using Azure Backup?
-Azure Disks only.
+Azure files (Blobs in preview). Separately, from VM's, Azure Disks.
 
 99
 What are restrictions when restoring using Azure backup to a different machine than the original?
@@ -349,3 +349,27 @@ Global administrator
 107
 What are management groups?
 A security scope above subscriptions.
+
+108
+What do you need to do to run an Azure file share with more than 100 TiB of space?
+Enable large file shares, and increase the quota size
+
+109
+In what tab can you disable public network acess in a storage account?
+Networking (Not Data Protection)
+
+110
+What protects against the failure of a full Azure Data Center?
+Zone redundency (not fault domains)
+
+111
+What is the first AAS tier to support Autoscaling?
+Standard
+
+112
+How many Network Watcher instances do you need to install?
+One per region.
+
+113
+Which is cheaper for running web apps, ACI or AAS?
+AAS - apparently
