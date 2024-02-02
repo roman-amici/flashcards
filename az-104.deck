@@ -297,3 +297,55 @@ Load balancing cross region using DNS.
 94
 What permissions are required to read all roles and role assignment?
 Microsoft.Authorization/*/read
+
+95
+What is the affinity of a private DNS zone?
+Can be associated with multiple VNets from separate regions.
+
+96
+What two files need to be created for an Azure Import / Export job?
+Dataset.csv file and Driveset.csv file
+
+97
+What cannot be backed up using Azure backup?
+Azure SQL Databases and Blob containers.
+
+98
+What storage services can be backed up using Azure Backup?
+Azure Disks only.
+
+99
+What are restrictions when restoring using Azure backup to a different machine than the original?
+Must be running the same OS / Version as the backup. (e.g. Windows Server Version)
+
+100
+How does Azure File Sync handle write conflicts?
+Doesn't overwrite, instead stores both files with conflict numbers.
+
+101
+What load balancer can be configured to be internal?
+Application Gateway
+
+102
+What happens if you change the size of a VM while its running?
+It may first be de-allocated depending on hardware availability.
+
+103
+What is required to move a vm across AZ's?
+Managed disks
+
+104
+What is configured as part of an action group?
+The specific target resources of the action (including specific users).
+
+105
+What can a cloud device administrator manage?
+Membership of a device in Entra (not membership of a device in a group. A device is more like a user).
+
+106
+What is the only user that can access the root management group?
+Global administrator
+
+107
+What are management groups?
+A security scope above subscriptions.
