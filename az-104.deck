@@ -280,7 +280,7 @@ Used to connect to file shares over SMB.
 
 90
 What authentication methods are allowed when connecting to Azure file shares via SMB?
-AADS, Entra Domain Services, Kerebos (not SAS).
+AADS, Access Keys, Entra Domain Services, Kerebos (not SAS).
 
 91
 How many disjoint address spaces can a VNet have?
@@ -308,7 +308,7 @@ Dataset.csv file and Driveset.csv file
 
 97
 What cannot be backed up using Azure backup?
-Azure SQL Databases and Blob containers.
+Azure SQL Databases and (previously Blob containers).
 
 98
 What storage services can be backed up using Azure Backup?
@@ -373,3 +373,31 @@ One per region.
 113
 Which is cheaper for running web apps, ACI or AAS?
 AAS - apparently
+
+114
+Which type of VPN gateway supports P2S connections?
+Route-based
+
+115
+What are general restrictions on the location of a log analytics workspace?
+It is not restricted based on the region of the resources that can send it data.
+
+116
+What do you need to do for a peered network if you change the address space of one of the networks?
+re-sync the peering to get access to the new addresses.
+
+117
+What do you need to do to support more Azure Bastion connections?
+Turn on scaling after upgrading to Standard SKU.
+
+118
+What is the purpose of the User Access Admin role?
+To be able to make role assignments to a resource (without read or write permissions on the resources themselves.)
+
+119
+When using an action group to send an email to the Azure Resource Manager role, who will receive the email?
+Only users who have been granted the role directly, not groups.
+
+120
+What is the affanity between VM's and Azure backup vaults?
+A VM can only be associated with one vault. (obvs Vaults can have multiple VMs)
