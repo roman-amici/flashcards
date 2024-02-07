@@ -308,7 +308,7 @@ Dataset.csv file and Driveset.csv file
 
 97
 What cannot be backed up using Azure backup?
-Azure SQL Databases and (previously Blob containers).
+Azure SQL Databases
 
 98
 What storage services can be backed up using Azure Backup?
@@ -351,7 +351,7 @@ What are management groups?
 A security scope above subscriptions.
 
 108
-What do you need to do to run an Azure file share with more than 100 TiB of space?
+What do you need to do to run an Azure file share with more than 5 TiB of space?
 Enable large file shares, and increase the quota size
 
 109
@@ -399,7 +399,7 @@ When using an action group to send an email to the Azure Resource Manager role, 
 Only users who have been granted the role directly, not groups.
 
 120
-What is the affinity between VM's and Azure Recovery ser backup vaults?
+What is the affinity between VM's and Azure Recovery service vaults?
 A VM can only be associated with one vault. (obvs Vaults can have multiple VMs)
 
 121
