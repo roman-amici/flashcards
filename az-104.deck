@@ -426,3 +426,38 @@ Set changes the full state of the resource and optionally creates it if it doesn
 What would an alert configured for Azure Service Health do?
 Inform you if there was a region-wide degradation or outage for a service.
 
+127
+What is the (only?) resource you cannot add tags to?
+Management group
+
+128
+What resource can you not apply a lock to?
+Management group (policies only?)
+
+129
+What do you need to do to be able to delete a Recovery Services Vault?
+Delete all the backup data in the vault.
+
+130
+What connections are supported in the basic VPN SKU?
+Only VNet to VNet not IPSec S2S connections.
+
+131
+Where does the recovery services vault reside for site recovery?
+In the backup region.
+
+132
+What the deal with Usage location?
+Its specific to the Entra Tenet, even for guest users.
+
+133
+What do you need to do to make an Azure Container App accessible to the internet?
+Configure an ingress endpoint.
+
+134
+What is traffic analytics for?
+Allows you to process / query nsg flow logs
+
+135
+For Azure import service what is the first step?
+Preparing the drives (not creating the import job)
