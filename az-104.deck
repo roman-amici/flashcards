@@ -11,7 +11,7 @@ What port does SMB use?
 445
 
 4
-What powershell command can be used to upload a virtual hard disk to Azure?
+What powershell command can be used to upload a virtual hard disk from on-prem to Azure?
 Add-AzVhd
 
 5
@@ -461,3 +461,15 @@ Allows you to process / query nsg flow logs
 135
 For Azure import service what is the first step?
 Preparing the drives (not creating the import job)
+
+136
+What are the limitations of the Basic AAS plan with respect to disk space and number of VMs?
+10 GB and 3 VMs
+
+137
+What is the maximum duration that data can be pinned to a log analytics dashboard?
+14 days
+
+138
+What is the dafault number of days a VM backup will be stored in a recovery services vault?
+30 days
