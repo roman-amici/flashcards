@@ -509,5 +509,3 @@ Always, even if the machine is deallocated.
 147
 What role allows you to modify ACL's over SMB?
 SMB Share Elevated Contributor
-
-148
