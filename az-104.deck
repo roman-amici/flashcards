@@ -192,7 +192,7 @@ Re-download the VPN client configuration file for your vpn.
 
 68
 What are requirements on the subnet used for a VNG?
-Must be named GatewaySubnet and be at least a /28 in size.
+Must be named GatewaySubnet and be at least a /29 in size (recommended /27).
 
 69
 What is the relationship between a VNG and VPN Gateway?
@@ -400,7 +400,7 @@ Only users who have been granted the role directly, not groups.
 
 120
 What is the affinity between VM's and Azure Recovery service vaults?
-A VM can only be associated with one vault. (obvs Vaults can have multiple VMs)
+A VM can only be associated with one vault. (obvs. Vaults can have multiple VMs)
 
 121
 What is required to reach an application SLA of 99.99%?
@@ -455,7 +455,7 @@ What do you need to do to make an Azure Container App accessible to the internet
 Configure an ingress endpoint.
 
 134
-What is traffic analytics for?
+What is traffic in network monitoring insights for?
 Allows you to process / query nsg flow logs
 
 135
@@ -471,5 +471,43 @@ What is the maximum duration that data can be pinned to a log analytics dashboar
 14 days
 
 138
-What is the dafault number of days a VM backup will be stored in a recovery services vault?
+What is the default number of days a VM backup will be stored in a recovery services vault?
 30 days
+
+139
+At what scope is the Global Admin role applied?
+At the tenet level
+
+140
+What types of VMs can you backup using Azure Backup?
+Windows and Linux
+
+141
+What is the arity of an azure backup policy?
+One per resource type (e.g. all vms or storage account)
+
+142
+What is true of a recovery service vault with respect to the storage account that stores its logs?
+Must be in the same region. - Does not apply to log analytics workspaces.
+
+143
+What are the three aspects of Network Monitoring Insights?
+Connectivity, Traffic, Network Health and Metrics
+
+144
+What is the maximum number of fault domains? Update domains?
+3, 20
+
+145
+What is a prerequisite for creating a virtual machine?
+Must have a Vnet to deploy it into.
+
+146
+When is a VM quota applied to a virtual machine?
+Always, even if the machine is deallocated.
+
+147
+What role allows you to modify ACL's over SMB?
+SMB Share Elevated Contributor
+
+148
