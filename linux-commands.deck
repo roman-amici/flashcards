@@ -1,0 +1,36 @@
+1
+List a directory's metadata instead of its content
+ls -d (--directory)
+
+2
+Classify each file in a directory with an indicator code.
+ls -F (--classify)
+
+3
+Display inode names of a directory.
+ls -i (--inode)
+
+4
+Display directory metadata including permissions
+ls -l (alias ll)
+
+5
+Copy a file keeping original permissions and timestamps
+cp -a (--archive)
+
+6
+Copy a file, overwriting only if the file is newer
+cp -u (--update)
+
+7
+Copy a file but don't overwrite any dest files
+cp -n (--no-clobber)
+
+8
+Create a hardlink from a file
+ln 
+
+9
+Create a softlink from a file
+ln -s 
+
