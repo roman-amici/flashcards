@@ -1,5 +1,5 @@
 1
-List a directory's metadata instead of its content
+List only the directories in a directory
 ls -d (--directory)
 
 2
@@ -34,3 +34,34 @@ ln
 Create a softlink from a file
 ln -s 
 
+10
+Command to jump back and forth between the last directory
+cd -
+
+11
+Push to standard in, printing line numbers
+cat -n
+
+12
+print two files side by side
+pr -m (--merge)
+
+13
+Match file in a case-insensitive search
+grep -i
+
+14
+Stream the end of a log as its appended to
+tail -f (--follow)
+
+15
+Quickly test if two files are the same
+diff -q (--brief)
+
+16
+Search for files globally using the system database
+locate
+
+17
+Command to recursively search a directory for a given file
+find <dir> -name <pattern>
