@@ -65,3 +65,39 @@ locate
 17
 Command to recursively search a directory for a given file
 find <dir> -name <pattern>
+
+18
+Display only the nth fields separated by a delimiter
+cut -d <delim> -f n1,n2
+
+19
+Invert matching line
+grep -v
+
+20
+Match with "extended" regex
+grep -E (alias egrep)
+
+21
+Check if a file is in sorted order
+sort -c
+
+22
+Sort a file using numeric rather than lexicographic sorting
+sort -n
+
+23
+Show text with non-printing characters
+cat -v
+
+24
+Count the number of lines in a file
+wc -l
+
+25
+Count the number of words in a file
+wc -w
+
+26
+Redirect both stdin and stderror
+&>
