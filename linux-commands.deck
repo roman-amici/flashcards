@@ -71,7 +71,7 @@ Display only the nth fields separated by a delimiter
 cut -d <delim> -f n1,n2
 
 19
-Invert matching line
+Match all lines which don't satisfy the pattern
 grep -v
 
 20
@@ -101,3 +101,19 @@ wc -w
 26
 Redirect both stdin and stderror
 &>
+
+27
+Print all the directories in the stack
+dirs
+
+28
+Generate a sequence of numbers
+seq
+
+29
+Print the current time
+date +"%H:%M:%S"
+
+30
+Search for something and execute the result as an argument
+find <args> -exec <command> {} ";"
