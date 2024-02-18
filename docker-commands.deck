@@ -1,0 +1,19 @@
+1
+Get a JSON formulated summary of a container
+docker container inspect <id>
+
+2
+Docker run command to map a port
+--publish <host port>:<container port>
+
+3
+Live view of running containers and their cpu/memory usage
+docker container stats
+
+4
+Execute a command on a running container
+docker exec -it <container> <command>
+
+5
+View the commands that were used to create the image
+docker image history <image>
