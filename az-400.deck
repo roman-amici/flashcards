@@ -47,8 +47,8 @@ What are Task Groups in Azure Pipelines?
 Groups of Tasks usable in Classic and Classic Release (because no templating).
 
 13
-What defines the name of a previous pipeline that triggers a new pipeline run?
-source (not trigger, trigger is "what")
+What property specifies the name of a previous pipeline that triggers a new pipeline run?
+source
 
 14
 What is the only Traffic Manager distribution method that supports IPv6?
