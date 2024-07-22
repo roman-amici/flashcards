@@ -1,0 +1,57 @@
+1
+What is the maximum number of secrets a GitHub workflow supports?
+100
+
+2
+What does runAsPreJob do in the AzureKeyValue@2 task?
+Make secrets available to the whole job, not just subsequent tasks.
+
+3
+What are Swimlanes an Kanban board?
+Different tracks of work (e.g. high priority vs normal).
+
+4
+What is the syntax for creating a mermaid diagram in markdown?
+::: mermaid
+
+5
+What does the Azure Monitor Agent replace?
+Log Analytics Agent, Diagnostic Extension, Telegraph agent.
+
+6
+What is required for a dependency to be part of the dependency map in App Insights?
+Accessed via Http form the app.
+
+7
+What App Insights feature allows you to view aggregated request data?
+Metrics Explorer
+
+8
+What App Insights feature allows you to to analyze specific requests?
+Profiler
+
+9
+What is the alternate syntax for referencing a git branch in a uri?
+git://<stuff>@refs/heads/<branch name>
+
+10
+What is required to run UI tests on windows for an AzDo agent?
+Autologon
+
+11
+What allows you to provide separate public and private npm package feeds?
+Scopes
+
+12
+What are Task Groups in Azure Pipelines?
+Groups of Tasks usable in Classic and Classic Release (because no templating).
+
+13
+What defines the name of a previous pipeline that triggers a new pipeline run?
+source (not trigger, trigger is "what")
+
+14
+What is the only Traffic Manager distribution method that supports IPv6?
+MultiValue
+
+15
