@@ -55,3 +55,30 @@ What is the only Traffic Manager distribution method that supports IPv6?
 MultiValue
 
 15
+What is the resource identifier for WebAPI's?
+Mircosoft.Web/sites
+
+16
+What is required to configure a service principal?
+ApplicationID, TenantID, Client Secret
+
+17
+What is Azure Automanage?
+A way to automatically configure VM's to follow best practices.
+
+18
+What is required to run Azure automanage?
+Azure Automanage (Guest Configuration) VM extension and a managed identity.
+
+19
+What should git LFS be used for?
+*Infrequently* updated large binary files.
+
+20
+What is the Cycle Time view in DevOps Analytics?
+How long it takes to complete a work item once work has been *started*.
+
+21
+What is the Lead Time view in DevOps Analytics?
+How long it takes to complete a work item once it has been *created*.
+
