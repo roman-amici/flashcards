@@ -82,3 +82,29 @@ How long it takes to complete a work item once work has been *started*.
 What is the Lead Time view in DevOps Analytics?
 How long it takes to complete a work item once it has been *created*.
 
+22
+What Traffic Manager setting should be used for Blue-Green deployments?
+Weighted Round Robin
+
+What operating systems does MS Defender not support?
+Scanning for Mac (Linux works now)
+
+23
+What is the difference between agile and scrum?
+Agile has "UserStories" Scrum has "ProductBacklogItems"
+
+24
+What is the *GitHub* role required to link a GitHub repo with Azure Boards?
+GitHub Owner
+
+25
+What are some *AzDo* roles required to link a GitHub repo with Azure Boards?
+Project Contributor and up.
+
+26
+What is required to send Azure Resource Logs to a Log Analytics workspace?
+Diagnostic Setting
+
+27
+What is required to send Azure Resource Logs outside of Azure?
+Event Hub
