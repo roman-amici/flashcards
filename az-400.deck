@@ -86,73 +86,74 @@ How long it takes to complete a work item once it has been *created*.
 What Traffic Manager setting should be used for Blue-Green deployments?
 Weighted Round Robin
 
+23
 What operating systems does MS Defender not support?
 Scanning for Mac (Linux works now)
 
-23
+24
 What is the difference between agile and scrum?
 Agile has "UserStories" Scrum has "ProductBacklogItems"
 
-24
+25
 What is the *GitHub* role required to link a GitHub repo with Azure Boards?
 GitHub Owner
 
-25
+26
 What are some *AzDo* roles required to link a GitHub repo with Azure Boards?
 Project Contributor and up.
 
-26
+27
 What is required to send Azure Resource Logs to a Log Analytics workspace?
 Diagnostic Setting
 
-27
+28
 What is required to send Azure Resource Logs outside of Azure?
 Event Hub
 
-28
+29
 What does git partial clone --filter=blob:none do?
 Just downloads the commit history and not the actual files.
 
-29
+30
 Who is notified when a secret is discovered in a github repository?
 Entity that issued the secret so that they can revoke it and contact you directly. (It could be someone else's repo!)
 
-30
+31
 What github permissions should you give to someone who can push code to the repo?
 Write
 
-31
+32
 What github permission is for project managers without full access?
 Maintain
 
-32
+33
 What telemetry libraries integrate directly with application insights?
 OpenTelemetry and OpenCensus
 
-33
-What should you use to manage dependency links across AzDo projects?
+34
+What should you use to specify dependencies across AzDo projects?
 Dependency Tracker Extensions
 
-33
-What should you use to manage dependency links within AzDo projects?
+35
+What should you use to specify dependencies between work items within AzDo projects?
 Predecessor and Successor links
 
-34
+36
 What is a unit testing framework for powershell?
 Pester
 
-35
+37
 How does source control work for Azure Automation?
 Automation account is setup to *pull* from the repo.
 
-36
+38
 What git command is used to checkout a particular subset of the full repository?
 git sparse-checkout
 
-37
+39
 What is the best way to reference a template in an azure pipeline?
 Via a tag or a branch, not a sha hash. 
 
-38
+40
 What is the official recommended way to authenticate with git repositories in Azure Repos?
 PAT's (and not OAuth?)
