@@ -17,3 +17,16 @@ docker exec -it <container> <command>
 5
 View the commands that were used to create the image
 docker image history <image>
+
+6
+Rename an image, possibly with a different account
+docker image tag <old image> <new image>
+
+7
+Copy a file from your host computer into a running container
+docker container cp <src> <dest>
+
+8
+Attach another containers with a named volume
+docker container -v volume-name:location
+

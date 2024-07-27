@@ -157,3 +157,31 @@ Via a tag or a branch, not a sha hash.
 40
 What is the official recommended way to authenticate with git repositories in Azure Repos?
 PAT's (and not OAuth?)
+
+41
+What test runners can be used automatically infer test results?
+Mocha, Jest, Jasmine (JS); Unittest (Python)
+
+42
+What is Azure Data Explorer for?
+Big data analysis on unstructured data (including log data).
+
+43
+What file configures code coverage checks in an Azure Repo?
+azurepipelines-coverage.yml
+
+44
+What is the best AppInsights tools for determining the location of user churn?
+User Flows (Not Funnels)
+
+45
+What are the two types of Log Analytics Queries?
+Table based and Search
+
+46
+What are the three *statement* types in Kusto query document?
+Let statement, Set statement, Tabular expression
+
+47
+What are two code coverage tools for Java?
+JaCoCo, Cobertura
