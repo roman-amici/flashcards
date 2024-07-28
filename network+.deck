@@ -1,0 +1,12 @@
+1
+Maximum size of an ethernet frame
+1500
+
+2
+MTU of IP over ethernet
+1472
+
+3
+Difference between a NAS and a SAN
+SAN is block level, NAS is file level
+
