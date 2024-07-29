@@ -185,3 +185,35 @@ Let statement, Set statement, Tabular expression
 47
 What are two code coverage tools for Java?
 JaCoCo, Cobertura
+
+48
+What does a status policy do?
+Its a branch policy that allows third party services to validate a pull request before continuing.
+
+49
+What do you usually have to do before installing a 3rd party AzureDevops extension?
+Create a Service Connection (specifically SonarQube)
+
+50
+What is basic authentication?
+Http authentication method that sends a username and password.
+
+51
+How do you pass ARM template outputs to further tasks?
+Configure the deploymentOutputs section of the ARM deployment task to bind a JSON string to a variable.
+
+52
+How do you trigger a pipeline on pull request for YAML pipelines?
+Add a Build Validation Policy to a branch.
+
+53
+What are the three values of ConfigurationMode for PowerShell DSC?
+ApplyOnly (just new changes), ApplyAndMonitor (Log drift), ApplyAndAutoCorrect (Auto-reapply)
+
+54
+What are requirements for making Azure Packages public?
+Create a public project to reference the feed from.
+
+55
+Where are PowerShell DSC files compiled?
+In Azure Automation
