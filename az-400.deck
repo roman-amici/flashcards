@@ -217,3 +217,31 @@ Create a public project to reference the feed from.
 55
 Where are PowerShell DSC files compiled?
 In Azure Automation
+
+56
+What kql keyword is used to introduce a new calculated column?
+Extend
+
+57
+What format does LogRhythm accept?
+JSON
+
+58
+What segmentation tool is used to access how often a page is visited?
+Events
+
+59
+Which variables are logged in an Azure Pipeline? Which are not?
+Pipeline (logged), Environment Variables (Not Logged)
+
+60
+Where must you configure telemetry sampling rates for ApplicationInsights?
+In code (Startup.cs)
+
+61
+What role is required to create and save queries in Azure Devops?
+Contributor
+
+62
+What did White Source Bolt get renamed to?
+Mend Bolt
