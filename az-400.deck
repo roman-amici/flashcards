@@ -245,3 +245,63 @@ Contributor
 62
 What did White Source Bolt get renamed to?
 Mend Bolt
+
+63
+What task can be used to check the status of Azure alert before continuing?
+AzureMonitor@1
+
+64
+What do you use to correlate release artifacts with Application Insights?
+Release Annotations
+
+65
+What must you make sure of to run a git hook on a windows computer?
+Use forward slashes for paths and escape spaces
+
+66
+Officially, what is special about GitHub flow?
+Pull requests deploy to production before they are merged into the main branch. (How does that work?)
+
+67
+What two git commands allow you to rewrite the branch history?
+git filter-branch, git filter-repo
+
+68
+When should you perform an active vs passive penetration test?
+Active: Scheduled tests runs, Passive: Continuous *Deployment*
+
+69
+What is the only sem-ver change for which backwards compatibility is guaranteed (instead of likely).
+Patch
+
+70
+What can you use to publish reports from Azure Pipelines usable in PowerBI?
+OData feed
+
+71
+At what level are retention limits configured for GitHub artifacts?
+Organization
+
+72
+What pipeline feature allows you to manage how work items are affected?
+Settings / Automatically link work items included in this run. (Not in YAML)
+
+73
+What does maxParallel do when included in a pipeline stage?
+Limits concurrency if there are concurrent jobs
+
+74
+What do you need to do to get the Teams App to work with Azure Devops?
+Organization Settings / Allow Third-party application access via  OAuth.
+
+75
+What are the steps for migrating from TFS to github using the migration tool?
+git-import-tfs-raw, git-import-rewrite --flavor tfs
+
+76
+What permissions is required to edit package feed permissions?
+Owner
+
+77
+What "centralized" feature does Git LFS support?
+File Locking
