@@ -305,3 +305,24 @@ Owner
 77
 What "centralized" feature does Git LFS support?
 File Locking
+
+78
+What Entra tier supports privileged identity management (PIM)?
+Premium 2
+
+79
+What permissions are required to retrieve secrets from key vault?
+Get (not list)
+
+80
+What metric can be used to compare planned work with what was delivered?
+Velocity
+
+81
+What widget displays the total number of results returned from a query?
+Query Title
+
+82
+What condition should you apply to aggregation granularity?
+Should be longer than the frequency of evaluation.
+
