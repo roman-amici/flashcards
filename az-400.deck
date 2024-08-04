@@ -283,7 +283,7 @@ At what level are retention limits configured for GitHub artifacts?
 Organization
 
 72
-What pipeline feature allows you to manage how work items are affected?
+What pipeline feature allows you to update the status of work items as a result of the run?
 Settings / Automatically link work items included in this run. (Not in YAML)
 
 73
