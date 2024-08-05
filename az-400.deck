@@ -27,7 +27,7 @@ What App Insights feature allows you to view aggregated request data?
 Metrics Explorer
 
 8
-What App Insights feature allows you to to analyze specific requests?
+What App Insights feature allows you to analyze specific requests?
 Profiler
 
 9
@@ -167,7 +167,7 @@ What is Azure Data Explorer for?
 Big data analysis on unstructured data (including log data).
 
 43
-What file configures code coverage checks in an Azure Repo?
+What file configures code coverage checks on pull requests in an Azure Repo?
 azurepipelines-coverage.yml
 
 44
@@ -341,3 +341,4 @@ Use the Azure App Configuration task
 86
 What service can create dynamic secrets?
 HashiCorp Vault (Not KeyVault)
+
