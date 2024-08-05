@@ -326,3 +326,18 @@ Query Title
 What condition should you apply to aggregation granularity?
 Should be longer than the frequency of evaluation.
 
+83
+What can you do to temporarily freeze a branch in Azure Repos?
+Enable a branch lock.
+
+84
+What is required to use AD SSO in Github?
+GitHub Enterprise plan
+
+85
+How can you share configuration between an AAS App and a DevOps Pipeline?
+Use the Azure App Configuration task
+
+86
+What service can create dynamic secrets?
+HashiCorp Vault (Not KeyVault)
