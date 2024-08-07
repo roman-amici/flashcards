@@ -362,3 +362,34 @@ ${{ variables.<name> }}
 What does git clone --bare do?
 Clones without adding any remote tracking branches.
 
+92
+What pipeline types support caching?
+YAML and Classic Build
+
+93
+What is the current recommended way to perform complex availability tests?
+Azure functions via the TrackAvailability() API call
+
+94
+What traffic manager strategy routes traffic to the endpoint with the least latency?
+Performance (Not Geographic)
+
+95
+What is the maximum duration for an MS hosted agent?
+6 hours
+
+96
+What does git reset --mixed do?
+Change commit head without modifying the working directory. Differences are unstaged.
+
+97
+what does git reset --hard to?
+Change commit head and modify the working directory to match the commit.
+
+98
+What does git revert do?
+Create a new commit that reverts the previous commit.
+
+99
+How can you upload results of code scanning for use with github?
+Code scanning API, CodeQL CLI, upload-sarif action
