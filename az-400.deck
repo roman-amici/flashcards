@@ -342,3 +342,23 @@ Use the Azure App Configuration task
 What service can create dynamic secrets?
 HashiCorp Vault (Not KeyVault)
 
+87
+What are two Static Analysis tools for Java?
+Maven, Gradle (Via SonarQube)
+
+88
+What are two ways to configure verbose logging for an Azure Pipelines run?
+Enable system Diagnostics checkbox, System.Debug: true variable
+
+89
+How do you reference a *parameter* in a YAML pipeline?
+${{ paramters.<name> }}
+
+90
+How do you reference *variables* in a YAML pipeline?
+${{ variables.<name> }}
+
+91
+What does git clone --bare do?
+Clones without adding any remote tracking branches.
+
