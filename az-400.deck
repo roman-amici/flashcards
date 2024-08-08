@@ -351,12 +351,12 @@ What are two ways to configure verbose logging for an Azure Pipelines run?
 Enable system Diagnostics checkbox, System.Debug: true variable
 
 89
-How do you reference a *parameter* in a YAML pipeline?
+In YAML pipelines how do you reference parameters for parse-time substitution?
 ${{ paramters.<name> }}
 
 90
-How do you reference *variables* in a YAML pipeline?
-${{ variables.<name> }}
+In YAML pipelines how do you reference parameters for run-time substitution?
+$(parameters.<name>)
 
 91
 What does git clone --bare do?
@@ -393,3 +393,7 @@ Create a new commit that reverts the previous commit.
 99
 How can you upload results of code scanning for use with github?
 Code scanning API, CodeQL CLI, upload-sarif action
+
+100
+In YAML pipelines how do you reference variables in expressions?
+$[expr(variables['<name'>])]
