@@ -159,7 +159,7 @@ What is the official recommended way to authenticate with git repositories in Az
 PAT's (and not OAuth?)
 
 41
-What test runners can be used automatically infer test results?
+What test runners can be used to automatically infer test results?
 Mocha, Jest, Jasmine (JS); Unittest (Python)
 
 42
@@ -191,7 +191,7 @@ What does a status policy do?
 Its a branch policy that allows third party services to validate a pull request before continuing.
 
 49
-What do you usually have to do before installing a 3rd party AzureDevops extension?
+What do you usually have to do to use a 3rd party AzureDevops extension?
 Create a Service Connection (specifically SonarQube)
 
 50
@@ -203,7 +203,7 @@ How do you pass ARM template outputs to further tasks?
 Configure the deploymentOutputs section of the ARM deployment task to bind a JSON string to a variable.
 
 52
-How do you trigger a pipeline on pull request for YAML pipelines?
+How do you trigger a pipeline on pull request for Auzre repos?
 Add a Build Validation Policy to a branch.
 
 53
@@ -335,8 +335,8 @@ What is required to use AD SSO in Github?
 GitHub Enterprise plan
 
 85
-How can you share configuration between an AAS App and a DevOps Pipeline?
-Use the Azure App Configuration task
+How can you pull configuration from Azure App configuration in Azure Pipelines?
+Use the AzureAppConfiguration task
 
 86
 What service can create dynamic secrets?
@@ -360,7 +360,7 @@ $(parameters.<name>)
 
 91
 What does git clone --bare do?
-Clones without adding any remote tracking branches.
+Clones repository data without setting up a working directory (.git folder, tracking branches)
 
 92
 What pipeline types support caching?
@@ -421,3 +421,15 @@ Project Administrator
 106
 What role do you need to consume a service connection that is assigned to a project?
 User
+
+107
+How can you change Azure App Service settings from a pipeline?
+AzureAppServiceSettings task
+
+108
+Why would you use a pr trigger instead of a build validation policy?
+For repos other than azure repos (github)
+
+109
+What does git clone --mirror do?
+Does a bare clone, but also overwrites all refs from a remote repository.
