@@ -397,3 +397,27 @@ Code scanning API, CodeQL CLI, upload-sarif action
 100
 In YAML pipelines how do you reference variables in expressions?
 $[expr(variables['<name'>])]
+
+101
+How long does it take for SmartDetection to activate after adding it in ApplicationInsights?
+24 hours
+
+102
+What are the two services that consume action groups?
+Azure Monitor, Azure Health Alerts
+
+103
+What do you need to create in Azure Devops to send a notification to a webhook?
+Subscription
+
+104
+What role do you need to add a service connection or assign it to a project?
+Organization-level Administrator
+
+105
+What role do you need to rename a service connection or edit its description?
+Project Administrator
+
+106
+What role do you need to consume a service connection that is assigned to a project?
+User
