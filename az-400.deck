@@ -159,7 +159,7 @@ What is the official recommended way to authenticate with git repositories in Az
 PAT's (and not OAuth?)
 
 41
-What test runners can be used to automatically infer test results?
+What test runners can be used to automatically infer test results from the stdout?
 Mocha, Jest, Jasmine (JS); Unittest (Python)
 
 42
@@ -171,7 +171,7 @@ What file configures code coverage checks on pull requests in an Azure Repo?
 azurepipelines-coverage.yml
 
 44
-What is the best AppInsights tools for determining the location of user churn?
+What is the best AppInsights tool for determining the location of user churn?
 User Flows (Not Funnels)
 
 45
@@ -299,8 +299,8 @@ What are the steps for migrating from TFS to github using the migration tool?
 git-import-tfs-raw, git-import-rewrite --flavor tfs
 
 76
-What permissions is required to edit package feed permissions?
-Owner
+What Role is required to edit package feed permissions?
+Feed Owner
 
 77
 What "centralized" feature does Git LFS support?
@@ -323,7 +323,7 @@ What widget displays the total number of results returned from a query?
 Query Title
 
 82
-What condition should you apply to aggregation granularity?
+What condition should you apply to aggregation granularity in Azure Monitor?
 Should be longer than the frequency of evaluation.
 
 83
@@ -419,7 +419,7 @@ What role do you need to rename a service connection or edit its description?
 Project Administrator
 
 106
-What role do you need to consume a service connection that is assigned to a project?
+What role do you need to consume a service connection in a pipeline that is already assigned to a project?
 User
 
 107
@@ -435,11 +435,11 @@ What does git clone --mirror do?
 Does a bare clone, but also overwrites all refs from a remote repository.
 
 110
-What agent is used for deploying jobs/groups?
+What agent is used for deployment jobs/groups?
 Auzre pipelines agent
 
 111
-Officially, which is faster to MS hosted agents or Custom agents?
+Officially, which is faster to start a job MS hosted agents or Custom agents?
 Custom agents
 
 112
