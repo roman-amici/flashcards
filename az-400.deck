@@ -471,7 +471,7 @@ What do you need to setup to compile a DSC in Azure Automation?
 Create a runbook to do the compilation.
 
 119
-What DSC configuration ensures that a windows feature is available?
+What DSC configuration ensures that *multiple* windows features are available?
 WindowsFeatureSet, Present
 
 120
@@ -493,3 +493,23 @@ Service use to initialize *Linux* VMs when they boot for the first time.
 124
 How can you integrate Azure Test Plans with Azure Boards?
 Add a Test Case to a work item.
+
+125
+What is the url to refernce an azure pipeline object?
+https://dev.azure.com/<org>/<project>/_build?definitionId=n
+
+126
+What is the main limitation of Azure Defender for Containers?
+Does not support Winodws Containers.
+
+127
+How can you confiugre a downstream image to be updated when its base image is updated?
+use the ACR task in Azure pipelines
+
+128
+What is the role in AaDo for users who view project progress without managing work items?
+Stakeholder
+
+129
+What is the preferred way to visualize data from Azure Monitor?
+Workbooks (prev Dashboards)
