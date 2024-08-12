@@ -433,3 +433,44 @@ For repos other than azure repos (github)
 109
 What does git clone --mirror do?
 Does a bare clone, but also overwrites all refs from a remote repository.
+
+110
+What agent is used for deploying jobs/groups?
+Auzre pipelines agent
+
+111
+Officially, which is faster to MS hosted agents or Custom agents?
+Custom agents
+
+112
+At what level are Azure Devops extensions installed?
+Organization
+
+113
+What are limitations on git tags.
+Less than 250 chars, no control chars, shouldn't be confusable with 40 HEX hash.
+
+114
+What is necessary to run selenium on MS hosted agents?
+Matching browser versions and headless mode.
+
+115
+How do you configure pipelines runs to be stored beyond the retention policy.
+Create a lease using the pipelines REST api.
+
+116
+How do you configure Maven to access Azure Artifacts?
+Add feed to pom.xml; Copy settings.xml into ~/.m2 directory
+
+117
+What authentication methods should be used to access a GitHub repo from Azure Devops?
+GitHub PAT or GitHub user credentials.
+
+118
+What do you need to setup to compile a DSC in Azure Automation?
+Create a runbook to do the compilation.
+
+119
+What DSC configuration ensures that a windows feature is available?
+WindowsFeatureSet, Present
+
