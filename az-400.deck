@@ -474,3 +474,22 @@ Create a runbook to do the compilation.
 What DSC configuration ensures that a windows feature is available?
 WindowsFeatureSet, Present
 
+120
+What role can register agents from the agent pool?
+Pool Administrator
+
+121
+What is required for AKS to be able to pull images from ACR?
+Service principal / managed identity with ACR permissions
+
+122
+What GitHub role is used to provide restricted access to those outside your organization (e.g. contractors)
+Guest collaborator
+
+123
+What is Cloud-init?
+Service use to initialize *Linux* VMs when they boot for the first time.
+
+124
+How can you integrate Azure Test Plans with Azure Boards?
+Add a Test Case to a work item.
