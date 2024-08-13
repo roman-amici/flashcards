@@ -495,7 +495,7 @@ How can you integrate Azure Test Plans with Azure Boards?
 Add a Test Case to a work item.
 
 125
-What is the url to refernce an azure pipeline object?
+What is the url to reference an azure pipeline object?
 https://dev.azure.com/<org>/<project>/_build?definitionId=n
 
 126
@@ -513,3 +513,7 @@ Stakeholder
 129
 What is the preferred way to visualize data from Azure Monitor?
 Workbooks (prev Dashboards)
+
+130
+How do you trigger a pipeline based on a new container image in ACR?
+Add a container resource of type type with trigger property.
