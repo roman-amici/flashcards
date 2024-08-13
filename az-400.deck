@@ -500,10 +500,10 @@ https://dev.azure.com/<org>/<project>/_build?definitionId=n
 
 126
 What is the main limitation of Azure Defender for Containers?
-Does not support Winodws Containers.
+Does not support Windows Containers.
 
 127
-How can you confiugre a downstream image to be updated when its base image is updated?
+How can you configure a downstream image to be updated when its base image is updated?
 use the ACR task in Azure pipelines
 
 128
@@ -517,3 +517,27 @@ Workbooks (prev Dashboards)
 130
 How do you trigger a pipeline based on a new container image in ACR?
 Add a container resource of type type with trigger property.
+
+131
+What is the default sampling mode for App Insights in .Net Core?
+Adaptive
+
+132
+Where is ingestion sampling rates configured in Application Insights?
+Usage and estimated costs settings
+
+133
+What is the git command to restore a specific file from a prior commit?
+git restore --source <commit> <file>
+
+134
+What do you run in teams to add or filter azure pipelines subscriptions?
+@azure pipelines subscriptions
+
+135
+When is dependabot scanning triggered?
+Advisory is added, or dependencies are changed (not on PR!)
+
+136
+What protocols are supported for WebHooks?
+HTTP and HTTPS
