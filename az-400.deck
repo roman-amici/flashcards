@@ -541,3 +541,15 @@ Advisory is added, or dependencies are changed (not on PR!)
 136
 What protocols are supported for WebHooks?
 HTTP and HTTPS
+
+137
+What GitHub permissions allow you to mage issues without being able to push code?
+Triage
+
+138
+What command can you use to initialize a remote reference large repository without downloading it?
+scalar clone
+
+139
+How can you include a secret from KeyVault in a pipeline without adding the KeyVaultTask?
+Link to the keyvalue in a variable group.
