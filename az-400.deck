@@ -507,7 +507,7 @@ How can you configure a downstream image to be updated when its base image is up
 use the ACR task in Azure pipelines
 
 128
-What is the role in AaDo for users who view project progress without managing work items?
+What is the role in AzDo for users who view project progress without managing work items?
 Stakeholder
 
 129
@@ -543,13 +543,13 @@ What protocols are supported for WebHooks?
 HTTP and HTTPS
 
 137
-What GitHub permissions allow you to mage issues without being able to push code?
+What GitHub permissions allow you to manage issues without being able to push code?
 Triage
 
 138
-What command can you use to initialize a remote reference large repository without downloading it?
+What command can you use to initialize a remote reference to a large repository without downloading it?
 scalar clone
 
 139
 How can you include a secret from KeyVault in a pipeline without adding the KeyVaultTask?
-Link to the keyvalue in a variable group.
+Link to the key vault in a variable group.
