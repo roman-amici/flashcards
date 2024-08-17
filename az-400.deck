@@ -96,7 +96,7 @@ Agile has "UserStories" Scrum has "ProductBacklogItems"
 
 25
 What is the *GitHub* role required to link a GitHub repo with Azure Boards?
-GitHub Owner
+Organization Owner or Administrator
 
 26
 What are some *AzDo* roles required to link a GitHub repo with Azure Boards?
