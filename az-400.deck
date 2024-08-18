@@ -343,8 +343,8 @@ What service can create dynamic secrets?
 HashiCorp Vault (Not KeyVault)
 
 87
-What are two Static Analysis tools for Java?
-Maven, Gradle (Via SonarQube)
+What are two tools integrate with SonarQube for Java?
+Maven, Gradle
 
 88
 What are two ways to configure verbose logging for an Azure Pipelines run?
@@ -553,3 +553,59 @@ scalar clone
 139
 How can you include a secret from KeyVault in a pipeline without adding the KeyVaultTask?
 Link to the key vault in a variable group.
+
+140
+What permissions are required to edit the team project page of a wiki in AzDo?
+Project Administrator
+
+141
+What are best practices for the number of items in progress?
+No more than two.
+
+142
+What is the *official* workflow for manually removing a large or sensitive file on a branch?
+Rebase, drop the bad commits, and force push.
+
+143
+What are two static analysis task for Maven in Java?
+SonarQube and PMD analysis.
+
+144
+How do you setup file locking in git lfs?
+git lfs track <pattern> --lockable, git lfs lock
+
+145
+What method is used to authenticate github to azure boards via the github app?
+OAuth
+
+146
+What authentication method is used to authenticate the deployment group agent with Azure DevOps?
+PAT's
+
+147
+Where are feed URLs stored for NPM?
+.npmrc
+
+148
+What does Test Impact Analysis do?
+Tries to only run tests if the covered code has changed.
+
+149
+What is the URL for a keyvalut secret
+<keyvault name>.vault.azure.net/secrets/<secret-name>/<optional version number>
+
+150
+Officially, when at what point do you need to consider feature flags?
+After feature design but before feature implementation
+
+151
+What widget shows the success rate of a pipeline over time?
+Deployment status
+
+152
+What permissions are required to perform a manual validation?
+Queue builds
+
+153
+In NuUnit when are ordered tests run with respect to unordered tests?
+Ordered tests are always run before unordered tests.
