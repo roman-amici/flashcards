@@ -617,3 +617,27 @@ Must use HTTPS, not SSH
 155
 What is the URL for a github repository?
 https://github.com/OWNER/REPOSITORY (even in an org!)
+
+156
+What is a self-hosted maven package server?
+Nexus Repository
+
+157
+What is used in an ARM template parameter reference to reference from Azure Key Vault?
+keyVault (not secret)
+
+158
+What should you include in a microservice health check for a service?
+Direct dependencies for that service.
+
+159
+What two tools can generate a semantic version from a git commit?
+GitVersion, Semantic release
+
+160
+What is the difference between a gate and an approval?
+Automatic (external service) vs Manual (person)
+
+161
+What third-party tool can be used to auto-correct configuration drift?
+Chef infra
