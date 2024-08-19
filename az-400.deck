@@ -123,7 +123,7 @@ What github permissions should you give to someone who can push code to the repo
 Write
 
 32
-What github permission is for project managers without full access?
+What github permission is for project managers without access to sensitive operations like deleting a repo?
 Maintain
 
 33
@@ -523,7 +523,7 @@ What is the default sampling mode for App Insights in .Net Core?
 Adaptive
 
 132
-Where is ingestion sampling rates configured in Application Insights?
+Where are ingestion sampling rates configured in Application Insights?
 Usage and estimated costs settings
 
 133
@@ -595,7 +595,7 @@ What is the URL for a keyvalut secret
 <keyvault name>.vault.azure.net/secrets/<secret-name>/<optional version number>
 
 150
-Officially, when at what point do you need to consider feature flags?
+Officially, when in the feature lifecycle do you need to consider feature flags?
 After feature design but before feature implementation
 
 151
@@ -609,3 +609,11 @@ Queue builds
 153
 In NuUnit when are ordered tests run with respect to unordered tests?
 Ordered tests are always run before unordered tests.
+
+154
+What is a limitation of scalar clone?
+Must use HTTPS, not SSH
+
+155
+What is the URL for a github repository?
+https://github.com/OWNER/REPOSITORY (even in an org!)
