@@ -1,0 +1,55 @@
+1
+What is the maximum timeout for an Azure Function on a consumption plan?
+5 mins (default), 10 mins (configurable)
+
+2
+How would you support PHP in Azure functions?
+Custom Handler
+
+3
+How would you host an Oracle WebLogic app on Azure?
+Using AKS
+
+4
+At what level can resources not share a VNET?
+Cross subscription
+
+5
+How is networking deployed for Azure Managed Instanced?
+Deployed into their own virtual network
+
+6
+What is Entra Passthrough Authentication?
+Forwards authentication requests to an On-Prem server.
+
+7
+What Azure Service is FIPS 140-2 compliant?
+Azure Keyvault Premium
+
+8
+What Azure Service is FIPS 140-3 compliant?
+Managed HSMs
+
+9
+What service allows on-prem users to use tokens from Entra ID?
+Entra Application Proxy
+
+10
+What is the recommendation for management group hierarchy?
+Flat with fewer than 4 levels
+
+11
+What backup type can backup Azure files?
+Recovery services vault
+
+12
+What is the cross region availability for azure managed instances?
+auto-failover groups
+
+13
+What Azure SQL availability setup requires shared storage?
+Always-On Failover Clusters (FCI)
+
+14
+What is the earliest Azure SQL tier to support column store indexing?
+Standard S3
